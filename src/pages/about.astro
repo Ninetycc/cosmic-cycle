@@ -1,4 +1,5 @@
 ---
+import AboutL from "@/components/AboutL.astro";
 import PageLayout from "@/layouts/Base.astro";
 
 const meta = {
@@ -11,8 +12,8 @@ const meta = {
 	<h1 class="title mb-12">About</h1>
 	<div class="prose prose-sm prose-cactus max-w-none">
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			Hi, I’m a starter Astro. I’m particularly great for getting you
+			started with your own blogging website.
 		</p>
 		<p>Here are my some of my awesome built in features:</p>
 		<ul class="list-inside list-disc" role="list">
@@ -32,5 +33,6 @@ const meta = {
 				target="_blank">repo</a
 			> if you like me!
 		</p>
+		<AboutL />
 	</div>
 </PageLayout>
